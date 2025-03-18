@@ -2,7 +2,7 @@ name: concurrency
 on: push
 concurrency: ${{ github.workflow }}
 jobs:
-sleep:
-runs-on: ubuntu-latest
-steps:
-- run: sleep 180
+    sleep:
+        runs-on: ubuntu-latest
+        steps:
+        - run: sleep 180
